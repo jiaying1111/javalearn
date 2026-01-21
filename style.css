@@ -169,3 +169,17 @@ flex-direction: column;
   .main-text{
     font-size: 50px;
   }
+
+  /* drag */
+  .drag-img{
+    width: 180px;
+    position: absolute;   
+    cursor: grab;
+    z-index: 3000; 
+    -webkit-user-drag: none;
+    border: #111 solid 1px;
+  }
+  
+  .drag-img:active{
+    cursor: grabbing;
+  }
