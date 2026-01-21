@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topbar">
+        <button id="menuBtn" class="menu-btn">MENU</button>
+    </div>
+
+    <div id="sideBar" class="side-bar">
+        <button id="aboutBtn" class="side-btn">ABOUT</button>
+        <button id="wordBtn" class="side-btn">WORDS COUNT</button>
+        <button id="darkBtn" class="side-btn">DARK MODE</button>
+    </div>
+
+    <!-- about -->
+    <div id="aboutBar" class="about-bar">
+        <div class="about-text">
+            <span>About:</span>
+            <br><br>
+            <div>A simple speech-to-text playground.</div>
+            <div>Speak, record, and watch your words appear.</div>
+        </div>
+    </div>
+
+    <!-- word -->
+    <div id="wordBar" class="word-bar">
+        <div>
+            <p id="counter" class="center word-text">0 words</p>
+        </div>
+    </div>
+
+
+    <div class="middle">
+        <p>PROJECT NO.2</p>
+        <h1 id="overlay" class="center main-text"> Say Something...</h1>
+
+        <div class="center">
+            <button id="recordBtn">RECORD</button>
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="speech.js"></script>
+
+
+</body>
+
+</html>
